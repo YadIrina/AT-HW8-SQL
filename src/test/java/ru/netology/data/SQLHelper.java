@@ -15,7 +15,7 @@ import java.sql.SQLException;
         }
 
         private static Connection getConn() throws SQLException {
-            return DriverManager.getConnection("jdbc:mysql://localhost:3306/db", "app", "pass");
+            return DriverManager.getConnection("jdbc:mysql://localhost:3306/app", "app", "pass");
         }
 
         @SneakyThrows
